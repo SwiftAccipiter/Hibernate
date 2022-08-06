@@ -5,11 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>demo</groupId>
-  <artifactId>mvweb0806</artifactId>
+  <artifactId>HibernateEx</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
 
-  <name>mvweb0806 Maven Webapp</name>
+  <name>HibernateEx Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -26,10 +26,20 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+    	<groupId>mysql</groupId>
+    	<artifactId>mysql-connector-java</artifactId>
+    	<version>8.0.29</version>
+    </dependency>
+    <dependency>
+    	<groupId>org.hibernate</groupId>
+    	<artifactId>hibernate-core</artifactId>
+    	<version>5.4.30.Final</version>
+    </dependency>
   </dependencies>
 
   <build>
-    <finalName>mvweb0806</finalName>
+    <finalName>HibernateEx</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
